@@ -52,6 +52,7 @@ nav {
 main {
   padding: 57px 27px;
   color: white;
+  background: url('./assets/images/reactjs-icon.png') no-repeat right 75%;
 }
 
 .main--title {
@@ -62,4 +63,15 @@ main {
 
 .main--facts {
   margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts>li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--facts>li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
