@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Info from './Info';
 import AboutInterest from './AboutInterest';
 import Footer from './Footer';
@@ -9,6 +10,7 @@ export default function Card() {
             <Info />
             <AboutInterest />
             <Footer />
+            <Link to="/">Go Back </Link>
         </div>
     );
 }
