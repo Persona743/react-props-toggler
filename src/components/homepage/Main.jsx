@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Main() {
     return (
@@ -14,7 +15,7 @@ export default function Main() {
                 </li>
             </ul>
 
-            <a href="">Go to card section</a>
+            <Link to="/card">Go to card section</Link>
         </main>
     );
 }
