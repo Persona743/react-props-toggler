@@ -15,7 +15,7 @@ export default function Main() {
                 </li>
             </ul>
 
-            <Link to="/card">Go to card section</Link>
+            <Link to="/card">Go to card </Link>
         </main>
     );
 }

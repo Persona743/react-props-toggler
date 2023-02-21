@@ -1,15 +1,13 @@
 import React from 'react';
 import Info from './Info';
-import About from './About';
-import Interest from './Interest';
+import AboutInterest from './AboutInterest';
 import Footer from './Footer';
 
 export default function Card() {
     return (
-        <div>
+        <div className="card--container">
             <Info />
-            <About />
-            <Interest />
+            <AboutInterest />
             <Footer />
         </div>
     );
