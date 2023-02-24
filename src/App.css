@@ -52,7 +52,7 @@ nav {
 main {
   padding: 57px 27px;
   color: white;
-  background: url('./assets/images/reactjs-icon.png') no-repeat right 75%;
+  background: url('/assets/images/reactjs-icon.png') no-repeat right 75%;
 }
 
 .main--title {
