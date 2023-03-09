@@ -4,6 +4,8 @@ import HomePage from './components/homepage/HomePage';
 import Card from './components/card/Card';
 
 import './App.css';
+import './components/homepage/homePage.css'
+import './components/card/card.css'
 
 export default function App() {
     return (

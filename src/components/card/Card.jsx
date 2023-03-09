@@ -10,7 +10,10 @@ export default function Card() {
             <Info />
             <AboutInterest />
             <Footer />
-            <Link to="/">Go Back </Link>
+            {/* <Link to="/">Go Back </Link> */}
         </div>
     );
 }
+
+
+// this page is for the task purpose
